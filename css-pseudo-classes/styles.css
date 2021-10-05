@@ -1,0 +1,25 @@
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+tbody {
+  background-color: #d5d7d7;
+}
+
+tr:nth-child(2n) {
+  background-color: white;
+}
