@@ -1,0 +1,55 @@
+h2 {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  color: #f36153;
+}
+
+form {
+  /* text-align: center; */
+  font-family: sans-serif;
+}
+
+input {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-left: 33%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+select {
+  padding-right: 458px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  margin-left: 33%;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-left: 34%;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 50px;
+  background-color: #f36153;
+  color: white;
+  margin-left: 62%;
+  margin-top: 10px;
+  font-size: 20px;
+  border: 1px;
+}
