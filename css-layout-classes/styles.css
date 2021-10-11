@@ -8,10 +8,18 @@
   display: flex;
 }
 
-.column-one-third {
-  width: 80%;
+.column-full {
+  width: 100%;
 }
 
-.column-two-third {
-  width: 60%;
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-one-fourth {
+  width: 25%;
+}
+
+.column-two-thirds {
+  width: calc(200% / 3);
 }
