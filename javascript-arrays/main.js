@@ -4,15 +4,15 @@ console.log('value of colors[0]: ', colors[0]);
 console.log('value of colors[1]: ', colors[1]);
 console.log('value of colors[2]: ', colors[2]);
 
-var USFlag = 'America is';
+var usaFlag = 'America is';
 
-console.log(USFlag + ' ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] + '.');
+console.log(usaFlag + ' ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] + '.');
 
 colors[2] = 'green';
 
-var MexicanFlag = 'Mexico is';
+var mexicanFlag = 'Mexico is';
 
-console.log(MexicanFlag + ' ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] + '.');
+console.log(mexicanFlag + ' ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] + '.');
 
 console.log('value of colors: ', colors);
 
