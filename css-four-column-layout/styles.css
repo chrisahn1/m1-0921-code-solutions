@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Barlow', sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.row-one {
+  background-color: white;
+  border-radius: 50%;
+  width: 100%;
+}
+
+.row-two {
+  width: 25%;
+  margin-left: 120px;
+}
+
+.image {
+  width: 90%;
+}
+
+.column {
+  width: 100%;
+  margin: 10px;
+}
+
+.column-head {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.row {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+}
+
+.row-head {
+  font-size: 16px;
+  margin-left: 580px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 30px;
+}
