@@ -1,0 +1,31 @@
+.back-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.light-bulb {
+  border-radius: 60%;
+  width: 200px;
+  height: 200px;
+  border: none;
+}
+
+.light-bulb.yellow {
+  background-color: yellow;
+  box-shadow: 1px -10px white;
+}
+
+.light-bulb.black {
+  background-color: gray;
+  box-shadow: 1px -10px black;
+}
+
+.back-color.light {
+  background-color: white;
+}
+
+.back-color.dark {
+  background-color: #282828;
+}
