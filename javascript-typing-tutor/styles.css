@@ -1,0 +1,26 @@
+body {
+  font-size: 35px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.letter.current {
+  color: skyblue;
+  text-decoration: underline black;
+}
+
+.letter.black {
+  color: black;
+}
+
+.letter.green {
+  color: green;
+}
+
+.letter.red {
+  color: red;
+  text-decoration: underline red;
+}
