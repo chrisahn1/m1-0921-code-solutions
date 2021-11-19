@@ -7,5 +7,8 @@ function handleClick(event) {
   console.log('event.target: ', event.target);
   console.log('event.target.tagName: ', event.target.tagName);
   console.log('closest: ', closestElement);
-  closestElement.remove();
+  if (event.target.tagName === 'BUTTON') {
+    closestElement.remove();
+  }
+
 }
